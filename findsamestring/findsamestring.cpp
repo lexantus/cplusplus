@@ -10,8 +10,10 @@ int main()
 		if (current_string == priv_string)
 		{
 			cout << "Repeated word " << current_string << endl;
-			priv_string = current_string;
 		}
+		
+		priv_string = current_string;
+		
 	}
 	
 	return 1;
